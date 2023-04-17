@@ -1,7 +1,7 @@
-import Comments from './components/Comments'
+import TodoItem from './components/TodoItem'
 
 import './App.css'
 
-const App = () => <Comments />
+const App = () => <TodoItem />
 
 export default App

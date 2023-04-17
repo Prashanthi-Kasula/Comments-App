@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+}
+.app-container {
+  background-color: #adc0dd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.heading {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 25px;
+  color: #0b2347;
+}
+.todo-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.todo-heading {
+  color: rgb(12, 13, 49);
+}
+.input-container {
+  padding: 15px 8px;
+  margin-top: 10px;
+  width: 420px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}
+.button {
+  margin-left: 8px;
+  padding: 15px 8px;
+  background-color: #2365c7;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* 
+button:hover {
+  background-color: #091d39;
+} */
+/* .horizontal-line {
+  margin-top: 25px;
+} */
+.ul-container {
+  min-width: 590px;
+}
+.my-task {
+  margin-top: 15px;
+  color: rgb(8, 7, 11);
+}
+.count {
+  background-color: #2365c7;
+  color: white;
+  padding: 3px 5px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+/* @media screen and (max-width: 576px) {
+  .heading {
+    font-size: 40px;
+  }
+  /* .input-container {
+    width: 300px;
+  } */
+/* .ul-container {
+    width: 100%;
+  } 
+}*/
